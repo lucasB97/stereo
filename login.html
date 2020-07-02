@@ -1,15 +1,22 @@
-<!--
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>---- Include the above in your HEAD tag ---------->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>---- Include the above in your HEAD tag-->
 
 <html>
   <head>
-  <link rel="stylesheet" type="text/css" href="login-css.css">
+
+  <script src="js/login.js" ></script> 
+
+  <link rel="stylesheet" type="text/css" href="css/login-css.css">
+
+  <meta charset="utf-8">
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">        <!-- Google web font "Open Sans" -->
   <link rel="stylesheet" href="css/bootstrap.min.css">                                            <!-- https://getbootstrap.com/ -->
   <link rel="stylesheet" href="css/fontawesome-all.min.css">                                      <!-- Font awesome -->
-  <link rel="stylesheet" href="css/tooplate-style.css">   
+  <link rel="stylesheet" href="css/tooplate-style.css">
+ 
 <!------ Include the above in your HEAD tag ---------->
   <script>
     var renderPage = true;
@@ -21,7 +28,7 @@
       renderPage = false;
     }
   </script>
-  
+
   </head>
 <body id="LoginForm">
 <div class="container">
@@ -29,32 +36,31 @@
 <div class="login-form">
 <div class="main-div">
     <div class="panel">
-   <h2>Admin Login</h2>
-   <p>Please enter your email and password</p>
+   <h2>Entrar no Stereo</h2>
+   <p>Por favor entre com seu email e senha</p>
    </div>
+
     <form id="Login">
 
         <div class="form-group">
 
 
-            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+            <input type="email" class="form-control" id="email" placeholder="Email">
 
         </div>
 
         <div class="form-group">
 
-            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            <input type="password" class="form-control" id="senha" placeholder="Senha">
 
         </div>
         <div class="forgot">
-        <a href="reset.html">Forgot password?</a>
-</div>
-        <button type="submit" class="btn btn-primary">Login</button>
-
+        <a href="reset.html">Esqueceu a senha?</a>
+      </div>
     </form>
-    </div>
-<p class="botto-text"> Designed by Sunil Rajput</p>
-</div></div></div>
+
+    <button onclick="logar()" type="submit" class="btn btn-primary">Entrar</button>
+    </div></div></div></div>
 
 
 </body>
