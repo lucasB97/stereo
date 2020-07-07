@@ -1,0 +1,5 @@
+.active-purple-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 3px  #58d5ff;
+  box-shadow: 0 3px 0 0 #58d5ff;
+  border-radius: 6px;
+}
