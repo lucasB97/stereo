@@ -1,6 +1,23 @@
 body{
     background-image:url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg"); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;
 }
+
+.configurações sub{
+   padding: 5px 5px;
+    background-color: #ccc;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 50px;
+    
+}
+
+.configurações sub:hover{
+    box-shadow:-3px 4px 1px 1px #C275A8;
+    transition: 0.2s ease-in;
+    transform: translate(5px , -5px);
+    cursor: pointer;
+}
+
 .emp-profile{
     padding: 3%;
     margin-top: 3%;
