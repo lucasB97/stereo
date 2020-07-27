@@ -1,0 +1,226 @@
+.tm-welcome-section{
+    height: 30vh;
+    /*background-image: linear-gradient(to bottom, #8C71B6, #A47BB5, #CBA8C6 , #D9ACC1, #E196B5, transparent);*/
+    background-image: url(../img/Sertanejo/f9c4889fd6df4c9cc8fb759311edfd402.jpg);
+    color: #fff;
+    text-align: left;
+}
+
+.hero-banner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-banner img{
+    width: 144px;
+    height: 192px;
+    
+}
+
+.hero-banner .hero-text{
+    color: #fff;
+    text-align: left;
+    padding: 0px 0px 0px 35px;
+}
+
+.hero-banner .hero-text sub{
+    padding: 5px 5px;
+    background-color: #ccc;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 50px;
+    color: #000000;
+}
+
+.lives{
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.lives .conteiner{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.lives .conteiner .lives-unicas{
+    width: 332px;
+    height: 274px;
+
+    
+    padding: 5px 5px;
+}
+
+.lives .conteiner .lives-unicas img{
+    width: 100%;
+    height: 187px;
+    background-color: #ccc;
+}
+
+.lives .conteiner .lives-unicas img:hover{
+    box-shadow:-3px 4px 1px 1px #C275A8;
+    transition: 0.2s ease-in;
+    transform: translate(5px , -5px)
+}
+
+.lives .conteiner .lives-unicas .content{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lives .conteiner .lives-unicas .content img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.lives .conteiner .lives-unicas .content .text{
+    
+    height: calc(100% - 187px);
+    width: 100%;
+    padding: 5px 10px;
+    line-height: 0px;
+}
+
+.lives .conteiner .lives-unicas .content .text a{
+    color:#666D8E;
+}
+
+.lives .conteiner .lives-unicas .content .text h3{
+    font-size: 14px;
+    font-weight: 900;
+    color:#666D8E;
+}
+.lives .conteiner .lives-unicas .content .text p{
+    font-size: 12px;
+}
+.lives .conteiner .lives-unicas .content .text sub{
+    padding: 5px 5px;
+    background-color: #ccc;
+    color: #000;
+    border-radius: 5px;
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+.lives .conteiner .lives-unicas .content .text sub:hover{
+    box-shadow:-3px 4px 1px 1px #C275A8;
+    transition: 0.2s ease-in;
+    transform: translate(5px , -5px);
+    cursor: pointer;
+}
+
+
+
+
+
+/* Page live */
+
+
+.header{
+    width: 100%;
+    background-image: linear-gradient(45deg, black , transparent);
+}
+
+.header .conteiner {
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .conteiner img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #FFF;
+
+    margin: 10px 0px;
+}
+
+.header .conteiner a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.header .conteiner input{
+    border-radius: 5px;
+    border:none;
+
+    padding: 5px;
+    text-align: center;
+}
+
+.live{
+    width: 100%;
+    height: 600px;
+    margin: 15px 0px;
+
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.live .live-play{
+    width: 65%;
+    height: 100%;
+}
+.live .live-play video{
+    width: 100%;
+    height: 100%;
+}
+
+.live .conteiner-text{
+    width: 30%;
+    height: 100%;
+}
+
+.live .conteiner-text .redes{
+    width: 100%;
+    height: 20%;
+
+    display: block;
+   
+}
+.live .conteiner-text .redes h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0;
+}
+.live .conteiner-text .redes .redes-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.live .conteiner-text .redes-icons a{
+    color: #000;
+    font-size: 20px;
+}
+
+.live .conteiner-text .redes .donate{
+    width: 100%;
+    text-align: center;
+}
+.live .conteiner-text .redes .donate a{
+    color: #000;
+    font-size: 28px;
+}
+.footer{
+    width: 90%;
+    margin: 0px auto;
+}
