@@ -64,7 +64,7 @@
 }
 
 .lives .conteiner .lives-unicas img:hover{
-    box-shadow:-3px 4px 1px 1px #C275A8;
+    box-shadow:-3px 4px 1px 1px #5a2a4a;
     transition: 0.2s ease-in;
     transform: translate(5px , -5px)
 }
@@ -292,9 +292,9 @@
 
 .infos .conteiner .buttons a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 2px 5px;
-    background-color: #ccc;
+    background-color: #A47BB5;
     border-radius: 5px;
     margin-left: 8px;
     border: 1px solid #C275A8;
